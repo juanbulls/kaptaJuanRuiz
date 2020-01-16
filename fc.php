@@ -17,8 +17,8 @@ if (F_DEV) {
     $api_secret = '';
 //    ini_set('error_log', '');
 } else {
-    $api_key    = '0f0cc597e5d9af240b80b35489b22347c519ad81';
-    $api_secret = '66c19d0dd8dbabf175a206b2ef442cf2258650d6';
+    $api_key    = 'YOUR REAL API KEY';
+    $api_secret = 'YOUR REAL API SECRET';
 }
 
 $api = new Freedcamp_API($api_key, $api_secret);
