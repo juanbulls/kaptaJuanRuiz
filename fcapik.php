@@ -1,0 +1,3 @@
+<?
+echo 'si corri';
+?>

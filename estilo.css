@@ -1,0 +1,22 @@
+/*@font-face { font-family: Futura; src: url('futura.ttf'); }*/
+body{
+	font-size: 2em;
+}
+.contPrincipal{
+	margin: 0 auto;
+	width: 100%;
+	background:#b9ddfd;
+}
+h1{text-align:center;}
+#ph{
+	color:blue;
+}
+
+@media screen and (min-aspect-ratio:12/10){
+body{
+	font-size: 1em;
+}
+.contPrincipal{
+	width: 800px;
+}
+}
